@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 100px;
+}
+
+.header {
+    background-color: #66bfbf;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: fit-content;
+    margin: 100px auto;
+    padding-right: 20px;
+    border-radius: 30px;
+    height: 40px;
+}
+
+.searchContainer img {
+    height: 30px;
+    width: 30px;
+}
+
+.searchContainer button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.searchContainer input {
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+.day {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #66bfbf;
+    gap: 2px;
+    /*width: 400px;*/
+}
+
+.day img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.day p {
+    color: #ccc;
+}
+
+.row {
+    display: flex !important;
+    justify-content: center;
+}
+
+.degree {
+    color: #66bfbf;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+}
