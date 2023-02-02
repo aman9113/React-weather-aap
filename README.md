@@ -1,3 +1,3 @@
-## Search Your City Weather.
+## Search Your City for the Weather.
 
 
